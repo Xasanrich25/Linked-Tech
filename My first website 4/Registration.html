@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="Registration.css">
+</head>
+<body>
+
+    <div class="box">
+     <div class="item first"> 
+        <form>
+            <label for="name">
+                <p>Submit your first name</p>
+                <input type="name" id="name" placeholder="Name" required/>
+            </label>
+            
+            <label for="surname">
+                <p>Submit your surname</p>
+                <input type="surname" id="surname" placeholder="Surname" required/>
+            </label>
+            
+            <label for="number">
+                <p>Submit your phone number</p>
+                <input type="number" id="number" placeholder="Number" required/>
+            </label>
+              
+            <label for="email">
+                <p>Submit your email</p>
+                <input type="email" id="email" placeholder="Email" required/>
+            </label>
+             
+            <label for="password"> 
+                <p>Submit password</p>
+                <input type="password" id="password" placeholder="Password"/>
+            </label>
+             
+            <label for="date">
+                <p>Submit your birthday</p>
+                <input type="date" id="date" placeholder="Date" required/>
+            </label>
+            
+                <p>Genus</p>
+                Male
+                <input type="radio" id="male" name="gen">
+                Female 
+                <input type="radio" id="female" name="gen" >
+            
+                <p>Languages you know</p>
+                English
+                <input type="checkbox">
+                Russian
+                <input type="checkbox">
+                Uzbek
+                <input type="checkbox">
+                Italian
+                <input type="checkbox">
+                Spain
+                <input type="checkbox">
+            
+                <p>Nationality</p>
+                <select>
+                    <option value="uz">Uzbek</option>
+                    <option value="ru">Russian</option>
+                    <option value="en">English</option>
+                    <option value="it">Italian</option>
+                    <option value="in">Indian</option>
+                </select>
+            
+                <p>
+                   Which University do you want to study
+                <input type="text" list="lang" />
+                <datalist id="lang">
+                    <option value="Cambridge University"></option>
+                    <option value="Oxford University"></option>
+                    <option value="Bristol University"></option>
+                    <option value="Harvard University"></option>
+                    <option value="Chicago University"></option>
+                </datalist>
+            </p>
+            
+            <br>
+            <button type="submit">Send</button>
+            <ul>
+                <li>
+                    <a href="index.html" target="blank">Back</a>
+                </li>
+            </ul>
+            </form>
+        </div> 
+    </div>
+
+</body>
+</html>

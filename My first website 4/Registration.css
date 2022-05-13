@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: white;
+    text-shadow: 3px 3.2px 3.6px black;
+
+    /* box-shadow: 1px 1px 1px blue, 
+    2px 2px 5px red, 
+    3px 3px 10px blue, 
+    4px 4px 15px blue;  */
+  
+
+}
+
+.box{
+    width: 550px;
+    height: 700px;
+    /* border: 5px solid blue ; */
+    margin: 100px auto;
+
+    box-shadow: 1px 1px 1px blue, 
+    2px 2px 5px red, 
+    3px 3px 10px blue, 
+    4px 4px 15px blue;
+    display: flex;
+     justify-content: center;
+    align-items: center;
+    /* background: blueviolet; */
+    background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdnD4e6B_8RzF8ZOT4kg-5OKSJVauyqxhZFw&usqp=CAU);
+    background-size: cover;
+
+}
+.item{
+width: 800px;
+height: 650px;
+/* border: 2px solid red; */
+font-size: 25px;
+padding: 30px;
+background: url(https://media.istockphoto.com/photos/round-podium-or-pedestal-with-blue-background-picture-id1226478932?b=1&k=20&m=1226478932&s=170667a&w=0&h=hXsvxQilNanpKx7QC_tIsFUOKPl8fdIDfJ_QSKXesGE=);
+background-size: cover;
+}
+body{
+    background: url(https://www.metoffice.gov.uk/binaries/content/gallery/metofficegovuk/hero-images/advice/maps-satellite-images/satellite-image-of-globe.jpg;);
+    background-size: cover;
+}
+

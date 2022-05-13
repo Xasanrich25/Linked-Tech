@@ -1,0 +1,50 @@
+
+p{
+    color: white;  /*textni rangini o'zgartiradi*/
+    /* background: rgb(196, 255, 201); orqa fonni o'zgartiradi */
+    font-size: 20px; /*shrift razmerini o'zgartiradi*/
+    font-weight: 300; /*qalinligini o'zgartiradi*/
+    letter-spacing: 3px; /*harflar orasidagi masofa*/
+    word-spacing: 15px; /*so'zlar orasidagi masofa*/
+    font-family: Arial, Helvetica, sans-serif; /*shrift turi*/
+    /* text-decoration: underline; tag chiziq chizadi */
+
+    /* ramka chizish */
+    border-width: 5px;
+    /* border-style: solid; */
+    border-color: white;
+
+    text-align: center; /*gorizontal o'q bo'ylab textni suradi*/
+    text-transform: none;/*text harflarini turini o'zgartiradi.*/
+
+    /* textga soya berish */
+    text-shadow: 3px 3.2px 3.6px red;
+
+    /* box ga soya berish */
+    box-shadow: 1px 1px 1px blue, 
+                2px 2px 5px red, 
+                3px 3px 10px blue, 
+                4px 4px 15px blue; 
+
+    width: 95%; /*enining o'lchami*/
+    height: 100px; /*bo'yining balandligi*/
+
+    padding: 25px 25px 25px 25px; /* ichidan masofa qoldirish*/
+     
+/* tashqi masofa */
+    margin: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin: 20px 10px 10px 10px;
+
+}
+
+body{
+    background: url(https://traveller-eu.ru/sites/default/files/cambridge-1516034765-800x450.jpg);
+    /* background-repeat: no-repeat;
+    /* background: center; */
+    background-size: cover; 
+}
+
